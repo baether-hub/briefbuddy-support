@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>BriefBuddy – Datenschutzerklärung</title>
   <style>
-    body { font-family: -apple-system, system-ui, Arial; max-width: 860px; margin: 40px auto; padding: 0 16px; line-height: 1.5; }
-    h1,h2,h3 { line-height: 1.2; }
-    .box { background:#f6f6f6; padding:16px; border-radius:12px; }
-    a { word-break: break-word; }
-    ul { padding-left: 18px; }
+    body{font-family:-apple-system,system-ui,Arial;max-width:860px;margin:40px auto;padding:0 16px;line-height:1.55}
+    h1,h2,h3{line-height:1.2}
+    .box{background:#f6f6f6;padding:16px;border-radius:12px}
+    a{word-break:break-word}
+    ul{padding-left:18px}
+    code{background:#f2f2f2;padding:2px 6px;border-radius:6px}
   </style>
 </head>
 <body>
@@ -19,36 +20,59 @@
     <p><b>Verantwortlicher</b><br>
       Frank Baether<br>
       Bilsenkrautweg 5, 22391 Hamburg<br>
-      E-Mail: <a href="mailto:baether@me.com/a>
+      E-Mail: <a href="mailto:baether@me.com">baether@me.com</a>
     </p>
+    <p>Stand: 2026-02-05</p>
   </div>
 
   <h2>1. Zweck der App</h2>
-  <p>BriefBuddy unterstützt beim Scannen/Importieren von Dokumenten sowie beim Erstellen von Erklärungen und Antwortentwürfen.</p>
+  <p>BriefBuddy unterstützt beim Scannen/Importieren von Dokumenten, beim Erstellen von Erklärungen/Zusammenfassungen sowie beim Entwurf von Antwortschreiben. Optional kann eine KI-Funktion genutzt werden (nur nach Einwilligung).</p>
 
-  <h2>2. Verarbeitete Daten</h2>
+  <h2>2. Welche Daten verarbeiten wir?</h2>
   <ul>
-    <li>Dokumentinhalte (z.B. Text aus Scans/PDF/Fotos), wenn du diese zur Verarbeitung auswählst.</li>
-    <li>Technische Daten (z.B. eine Installations-ID), um Credits/Anfragen zuzuordnen.</li>
-    <li>In-App-Kauf-Informationen (z.B. Produkt-ID, Transaktions-ID), um Credits gutzuschreiben.</li>
+    <li><b>Dokumentinhalte</b> (z.B. Briefe, PDFs, Fotos) – nur wenn du sie in der App importierst/scannst.</li>
+    <li><b>App-Daten</b> (z.B. Installation-ID, App-Einstellungen) zur technischen Zuordnung und Credit-Verwaltung.</li>
+    <li><b>Nutzungsdaten</b> (z.B. ob ein Request erfolgreich war) zur Fehleranalyse.</li>
+    <li><b>Kaufdaten</b> bei In-App-Käufen (Produkt-ID, Transaktions-ID, signierte Transaktionsdaten/JWS) zur Verifizierung.</li>
   </ul>
 
-  <h2>3. KI-Verarbeitung / Server</h2>
-  <p>Wenn du zustimmst, werden ausgewählte Inhalte an einen Server zur Verarbeitung übertragen. Die App bietet Optionen zur Zustimmung (inkl. ggf. besonderer Daten). Ohne Zustimmung findet keine KI-Verarbeitung statt.</p>
+  <h2>3. Speicherung auf dem Gerät / iCloud</h2>
+  <p>Dokumente werden grundsätzlich lokal auf deinem Gerät gespeichert. Wenn du iCloud-Backup/iCloud Drive nutzt, kann Apple diese Daten in deinem iCloud-Speicher synchronisieren. Verantwortlich für iCloud ist Apple; Details findest du in den Datenschutzhinweisen von Apple.</p>
 
-  <h2>4. Speicherung</h2>
-  <p>Die App kann Dokumente lokal und/oder in iCloud/Dateien speichern – abhängig von deiner Nutzung und den Geräteeinstellungen. Serverseitige Speicherung erfolgt nur, soweit technisch erforderlich (z.B. zur Bearbeitung und Abrechnung von Credits).</p>
+  <h2>4. KI-Verarbeitung (nur mit Einwilligung)</h2>
+  <p>Wenn du der KI-Verarbeitung zustimmst, werden die von dir ausgewählten Texte/Dokumentauszüge an einen KI-Dienst zur Verarbeitung übertragen, um z.B. Erklärungen oder Antwortentwürfe zu erzeugen.</p>
+  <ul>
+    <li><b>Rechtsgrundlage:</b> Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)</li>
+    <li><b>Widerruf:</b> Du kannst die Einwilligung jederzeit in der App widerrufen. Ab dann findet keine KI-Übertragung mehr statt.</li>
+  </ul>
 
-  <h2>5. In-App-Käufe</h2>
-  <p>Käufe werden über den App Store abgewickelt. Zur Gutschrift von Credits verarbeitet die App Transaktionsdaten (z.B. Produkt-ID, Transaktions-ID und ggf. eine signierte Transaktionsdarstellung).</p>
+  <h2>5. Rechtsgrundlagen</h2>
+  <ul>
+    <li>Art. 6 Abs. 1 lit. b DSGVO (Vertrag/Erfüllung: App-Funktion, Credits, Käufe)</li>
+    <li>Art. 6 Abs. 1 lit. a DSGVO (Einwilligung: KI-Verarbeitung)</li>
+    <li>Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse: Sicherheit, Missbrauchs-/Fehleranalyse)</li>
+  </ul>
 
-  <h2>6. Deine Rechte</h2>
-  <p>Du kannst Auskunft, Berichtigung, Löschung oder Einschränkung verlangen, soweit anwendbar. Kontaktiere dazu die oben genannte E-Mail.</p>
+  <h2>6. Empfänger / Weitergabe</h2>
+  <ul>
+    <li><b>Apple</b> (App Store, In-App-Käufe, ggf. iCloud-Sync) als eigener Verantwortlicher.</li>
+    <li><b>Hosting/Server</b> (z.B. Hetzner) zur Bereitstellung der API (z.B. Credits, KI-Requests).</li>
+    <li><b>KI-Dienst</b> nur, wenn du einwilligst (siehe Abschnitt 4).</li>
+  </ul>
 
-  <h2>7. Kontakt</h2>
-  <p>Fragen zum Datenschutz: <a href="mailto:PRIVACY_EMAIL_HIER">PRIVACY_EMAIL_HIER</a></p>
+  <h2>7. Speicherdauer</h2>
+  <ul>
+    <li>Dokumente: solange du sie in der App aufbewahrst (oder bis du sie löschst).</li>
+    <li>Server-Logs/Transaktionsdaten: nur so lange wie nötig zur Abrechnung/Verifizierung und zur Fehleranalyse.</li>
+  </ul>
 
-  <hr>
-  <p><small>Stand: 2026-02-04</small></p>
+  <h2>8. Deine Rechte</h2>
+  <p>Du hast u.a. das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit sowie Widerspruch. Bei Einwilligungen kannst du jederzeit mit Wirkung für die Zukunft widerrufen.</p>
+
+  <h2>9. Beschwerderecht</h2>
+  <p>Du kannst dich bei einer Datenschutzaufsichtsbehörde beschweren (z.B. in Hamburg: Der Hamburgische Beauftragte für Datenschutz und Informationsfreiheit).</p>
+
+  <h2>10. Kontakt</h2>
+  <p>Datenschutz-Anfragen bitte an: <a href="mailto:baether@me.com">baether@me.com</a></p>
 </body>
 </html>
